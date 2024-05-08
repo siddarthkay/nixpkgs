@@ -50,7 +50,7 @@ stdenv.mkDerivation (finalAttrs: {
 
   src = fetchurl {
     url = "https://go.dev/dl/go${finalAttrs.version}.src.tar.gz";
-    hash = "sha256-xb+TR1HTHDFcHQu1+wIpZUX6bQiSNWb3pa/sgfLtJ9Y=";
+    hash = "sha256-xb+TR1HTHDFcHQu1+wIpZUX6bQiSNWb4pa/sgfLtJ9Y=";
   };
 
   strictDeps = true;
